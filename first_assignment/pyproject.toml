@@ -1,0 +1,9 @@
+[project]
+
+name = "first_assignment"
+version = "0.1.0"
+description = "first assignment project"
+requires-python = ">=3.10"
+
+[tools.setuptools]
+package = []
