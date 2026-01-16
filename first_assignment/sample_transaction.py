@@ -31,7 +31,7 @@ class SampleEvent:
             id = uuid4(),
             volume_change_uL = uL,
             memo = memo,
-            tst = datetime.now(timezone.utc)
+            ts = datetime.now(timezone.utc)
         )
     
     @classmethod
@@ -46,5 +46,5 @@ class SampleEvent:
             id = uuid4(),
             volume_change_uL = -uL,
             memo = memo,
-            tst = datetime.now(timezone.utc)
+            ts = datetime.now(timezone.utc)
         )
