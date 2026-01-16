@@ -19,8 +19,6 @@ class SampleEvent:
     def amount(self):
         return self._volume_change_uL
     
-
-    # TODO: implement add() and consume() classmethods
     @classmethod
     def add(cls, uL: int, memo: str = "add") -> "SampleEvent":
         """Create an event representing adding uL microliters (must be > 0)."""
